@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="KGk-i7-Jjw" customClass="MainTitleTableViewCell" customModule="DiscountTour" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WXu-Oa-n4G">
+                        <rect key="frame" x="20" y="0.0" width="287" height="70"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="z2d-Zc-3YX">
+                                <rect key="frame" x="0.0" y="0.0" width="287" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Find the best tour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPl-at-4Ao">
+                                        <rect key="frame" x="0.0" y="0.0" width="287" height="47"/>
+                                        <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="26"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ioj-Ch-Sub">
+                                        <rect key="frame" x="0.0" y="47" width="287" height="23"/>
+                                        <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="19"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="z2d-Zc-3YX" secondAttribute="trailing" id="Ioh-48-Lmz"/>
+                            <constraint firstItem="z2d-Zc-3YX" firstAttribute="centerY" secondItem="WXu-Oa-n4G" secondAttribute="centerY" id="QQf-4v-aL7"/>
+                            <constraint firstAttribute="height" constant="70" id="ajE-cN-0iE"/>
+                            <constraint firstItem="z2d-Zc-3YX" firstAttribute="leading" secondItem="WXu-Oa-n4G" secondAttribute="leading" id="e72-iw-pZb"/>
+                            <constraint firstAttribute="bottom" secondItem="z2d-Zc-3YX" secondAttribute="bottom" id="gdx-Df-VGc"/>
+                            <constraint firstItem="z2d-Zc-3YX" firstAttribute="top" secondItem="WXu-Oa-n4G" secondAttribute="top" id="v3J-qB-KPy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="WXu-Oa-n4G" secondAttribute="trailing" constant="20" symbolic="YES" id="4Sc-xR-lpA"/>
+                    <constraint firstItem="WXu-Oa-n4G" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="H7u-gj-pZe"/>
+                    <constraint firstAttribute="bottom" secondItem="WXu-Oa-n4G" secondAttribute="bottom" id="fOI-Fc-QhS"/>
+                    <constraint firstItem="WXu-Oa-n4G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="kIU-io-vXU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="110.86956521739131" y="-3.3482142857142856"/>
+        </tableViewCell>
+    </objects>
+</document>
